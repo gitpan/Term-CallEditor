@@ -1,32 +1,12 @@
-Term::CallEditor
-==========================
+Install via the cpan(1) command, or manually via:
 
-This module calls an external editor with an optional text message and
-returns data from the editor as a file handle. For more documentation,
-consult the POD in Term/CallEditor.pm.
+perl Makefile.PL
+make
+make test
+make install
 
-INSTALLATION
+Run perldoc(1) on the Term::CallEditor module for more documentation.
 
-To install this module type the following:
+http://search.cpan.org/perldoc/Term::CallEditor
 
-   perl Makefile.PL
-   make
-   make test
-   make install
-
-DEPENDENCIES
-
-This module requires these other modules and libraries:
-
-File::Temp
-
-COPYRIGHT AND LICENCE
-
-Copyright (c) 2004-2005, Jeremy Mates. All Rights Reserved. This module
-is free software. It may be used, redistributed and/or modified under
-the terms of the Perl Artistic License:
-
-http://www.perl.com/perl/misc/Artistic.html
-
-
-$Id: README,v 1.4 2005/09/09 00:48:26 jmates Exp $
+http://github.com/thrig/Term-CallEditor/
