@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5af545c218bf29dd2f3c9202e292c2116254d035 Changes
+SHA1 846252ea9428ead5a9f387bcd843958f5759609c LICENSE
+SHA1 4de683445d871920b411fe658712060e0e074fbe MANIFEST
+SHA1 ff35a1ba0ac2674bb0dd64dc623fb1087a0b2311 META.json
+SHA1 524b17a5151f1dec216613017a0a5398a8fbbc25 META.yml
+SHA1 6652da16f73eab828de760e96064ec657f4fa40b Makefile.PL
+SHA1 3c9f4cf94314c9d8414038344b5b960bb1c2262b README
+SHA1 d85748bb9d7d9efd3dd5d57a362351ae48adc7b5 eg/solicit
+SHA1 caccb2938f46ea0dc4db01d2b3f7bddde84ba315 lib/Term/CallEditor.pm
+SHA1 0ff62185c58730180c332f729953b5f7254c0301 t/1.t
+SHA1 d9436470b9e57d45a5fd5a8815b9e1061e8ade20 t/interactive.t
+SHA1 3ef65383d82f059f56f43236663119c01974decb t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJTYxISAAoJEDTEVWqwTuCUQgcH/RBHqbTFWZGPga8b/Zw6ukAx
+NFHqmhcaCQdoy8utst3E+xmci1Jq/4gx5GsXDMVi7GMbeOthTe5izWdZgIJ1iun3
+QTeuU3/eNPHsBka8AP/BONqtg92HFK/LGLM7gR5a7kpisvc3qrjUY2JQAkA/iVV1
+RirJbnDCWwGkDzIjWickiQ5juyhAy0/F5j7dylsQE+XVYhg1zBOzWhPn53JrftwF
+/yUIi4BhBkO/RWROtUEDlr8y4HHUw2tyercX+j0k6WmiD/M6sKEFGjCYKIhXaILz
+1AgA+cAabEKCEP0OeShtd4xe+Z7U41xyLMg1AbqLswJX0dkKw692Y7hgAy+ySMI=
+=67Px
+-----END PGP SIGNATURE-----

@@ -27,7 +27,7 @@ use IO::Handle;
 
 use POSIX qw(getpgrp tcgetpgrp);
 
-$VERSION = '0.62';
+$VERSION = '0.63';
 
 sub solicit {
   my $message = shift;
@@ -239,6 +239,10 @@ This module relies heavily on the Unix terminal, permissions on the
 temporary directory (for the L<File::Temp> module C<safe_level> call),
 whether C<system()> can actually run the C<EDITOR> environment variable,
 and so forth.
+
+=head1 SEE ALSO
+
+vipe(1) of moreutils to use vi(1) in pipes.
 
 =head1 AUTHOR
 
